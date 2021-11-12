@@ -39,7 +39,7 @@ public class StatLib {
 	}
 
 	// returns the Pearson correlation coefficient of X and Y //מקדם התאמה // קורולציה לינארית
-	public static float pearson(float[] x, float[] y){//HELLOWORLD
+	public static float pearson(float[] x, float[] y){//HELLOWORLD//
 		float sqrtOfVarianceX = (float)Math.sqrt(var(x));
 		float sqrtOfVarianceY = (float)Math.sqrt(var(y));
 
